@@ -1,0 +1,25 @@
+{
+    "awbno": 2939,
+    "contents": [
+        "mobile",
+        "docking station"
+    ],
+    "deliveryCharges": "2342.0",
+    "destination": {
+        "addressLine1": "73/2/13, Taj Tristart",
+        "addressLine2": "3rd Floor",
+        "city": "Hyderabad",
+        "country": "India",
+        "state": "Telangana",
+        "zip": 34532
+    },
+    "shippedDate": "05-07-2021",
+    "source": {
+        "addressLine1": "23-8, Maszid road",
+        "addressLine2": "near police station",
+        "city": "vijayawada",
+        "country": "India",
+        "state": "Andhrapradesh",
+        "zip": 34573
+    }
+}

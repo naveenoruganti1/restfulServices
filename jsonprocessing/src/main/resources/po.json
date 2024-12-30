@@ -1,0 +1,20 @@
+{
+	"orderItems": [
+		{
+			"itemCode": "ic001",
+			"quantity": 10
+		},
+		{
+			"itemCode": "ic202",
+			"quantity": 20
+		}
+	],
+	"shippingAddress": {
+		"addressLine1": "Lions club road",
+		"addressLine2": "29/2, Jain Complex",
+		"city": "hyderabad",
+		"state": "telangana",
+		"zip": 39333,
+		"country": "India"
+	}
+}
