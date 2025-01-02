@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.oyo.com/rooms/service"
+	xmlns:tns="http://www.oyo.com/rooms/service"
+	elementFormDefault="qualified">
+
+	<xs:element name="reservation-info"
+		type="tns:reservation-info" />
+	<xs:element name="booking-details"
+		type="tns:booking-details" />
+		
+	<xs:complexType name="reservation-info">
+		<xs:sequence>
+			<xs:element name="person-name" type="xs:string" />
+			<xs:element name="age" type="xs:int" />
+			<xs:element name="gender" type="xs:string" />
+			<xs:element name="mobile-no" type="xs:string" />
+			<xs:element name="email-address" type="xs:string" />
+			<xs:element name="id-type" type="xs:string" />
+			<xs:element name="id-proof" type="xs:string" />
+			<xs:element name="checkin-date" type="xs:date" />
+			<xs:element name="checkout-date" type="xs:date" />
+			<xs:element name="roomType" type="xs:string" />
+			<xs:element name="advance-amount" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="booking-details">
+		<xs:sequence>
+			<xs:element name="booking-no" type="xs:string" />
+			<xs:element name="person-name" type="xs:string" />
+			<xs:element name="mobile-no" type="xs:string" />
+			<xs:element name="email-address" type="xs:string" />
+			<xs:element name="id-type" type="xs:string" />
+			<xs:element name="id-proof" type="xs:string" />
+			<xs:element name="checkin-date" type="xs:date" />
+			<xs:element name="checkout-date" type="xs:date" />
+			<xs:element name="roomType" type="xs:string" />
+			<xs:element name="amount-paid" type="xs:float" />
+			<xs:element name="balance-amount" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
